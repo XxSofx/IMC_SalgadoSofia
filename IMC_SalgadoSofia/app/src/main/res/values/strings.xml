@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculadora IMC</string>
+
+    <!-- Títulos y etiquetas -->
+    <string name="titulo_app">CALCULADORA DE IMC</string>
+    <string name="label_peso">Peso (kg)</string>
+    <string name="label_altura">Altura (cm)</string>
+
+    <!-- Placeholders -->
+    <string name="placeholder_peso">[Ingrese su peso]</string>
+    <string name="placeholder_altura">[Ingrese su altura]</string>
+
+    <!-- Botones -->
+    <string name="btn_calcular">CALCULAR</string>
+    <string name="btn_limpiar">LIMPIAR</string>
+
+    <!-- Resultados -->
+    <string name="resultado_imc_simple">Tu IMC es:</string>
+    <string name="resultado_clasificacion_simple">Clasificación:</string>
+    <string name="resultado_color_fondo">(con color de fondo %s)</string>
+
+    <!-- Nombres de colores -->
+    <string name="color_azul_claro">azul claro</string>
+    <string name="color_verde_claro">verde claro</string>
+    <string name="color_amarillo_claro">amarillo claro</string>
+    <string name="color_rojo_claro">rojo claro</string>
+    <string name="color_personalizado">color personalizado</string>
+
+    <!-- Mensajes de error del ViewModel -->
+    <string name="error_campos_vacios">Por favor, completa todos los campos</string>
+    <string name="error_valores_invalidos">Por favor, ingresa valores numéricos válidos</string>
+    <string name="error_valores_negativos">El peso y la altura deben ser mayores a cero</string>
+    <string name="error_peso_alto">El peso ingresado parece demasiado alto</string>
+    <string name="error_altura_formato">La altura debe estar en centímetros (ej: 175)</string>
+
+    <!-- Clasificaciones IMC del ViewModel -->
+    <string name="imc_bajo_peso">Bajo peso</string>
+    <string name="imc_peso_normal">Peso Normal</string>
+    <string name="imc_sobrepeso">Sobrepeso</string>
+    <string name="imc_obesidad">Obesidad</string>
+</resources>
