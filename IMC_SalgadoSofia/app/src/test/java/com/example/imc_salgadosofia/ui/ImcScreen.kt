@@ -17,6 +17,9 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.ExperimentalMaterial3Api
 import com.example.imc_salgadosofia.viewmodel.ImcViewModel
+import com.example.imc_salgadosofia.R
+import com.example.imc_salgadosofia.ui.theme.ColorUtils
+
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
